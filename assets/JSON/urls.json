@@ -1,4 +1,6 @@
 {
-  "url1": "https://reqres.in/api/users?page=2",
-  "url2": "https://reqres.in/api/users/2"
+  "Req1":[
+    {"url1":"https://reqres.in/api/users?page=2"},
+    {"url2":"https://reqres.in/api/users/2"}
+    ]
 }

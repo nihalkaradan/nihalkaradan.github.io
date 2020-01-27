@@ -2,9 +2,9 @@
   "getClaimData": [
     {
       "getClaimData_ACC":[
-        {"getclaimdetaildata":"/claim/get/claimInfo/acc/update/{claimEventRefNumber}"},
-        {"getPaymentSchedule":"/claim/adj/disability/manual/payschedule/{claimNumber}"},
-        {"getclaimBookEvent":"/claim/common/claimBookEvent/{claimNumber}"}
+        {"getclaimdetaildata":"https://reqres.in/api/users?page=2"},
+        {"getPaymentSchedule":"https://reqres.in/api/users/2"},
+        {"getclaimBookEvent":"https://reqres.in/api/unknown"}
       ],
       "getClaimData_CI":[
         {"getclaimdetaildata":"/claim/get/claimInfo/acc/update/{claimEventRefNumber}"},

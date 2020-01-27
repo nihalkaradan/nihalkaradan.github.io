@@ -5,6 +5,16 @@
         {"getclaimdetaildata":"/claim/get/claimInfo/acc/update/{claimEventRefNumber}"},
         {"getPaymentSchedule":"/claim/adj/disability/manual/payschedule/{claimNumber}"},
         {"getclaimBookEvent":"/claim/common/claimBookEvent/{claimNumber}"}
+      ],
+      "getClaimData_CI":[
+        {"getclaimdetaildata":"/claim/get/claimInfo/acc/update/{claimEventRefNumber}"},
+        {"getPaymentSchedule":"/claim/adj/disability/manual/payschedule/{claimNumber}"},
+        {"getclaimBookEvent":"/claim/common/claimBookEvent/{claimNumber}"}
+      ],
+      "getClaimData_HI":[
+        {"getclaimdetaildata":"/claim/get/claimInfo/acc/update/{claimEventRefNumber}"},
+        {"getPaymentSchedule":"/claim/adj/disability/manual/payschedule/{claimNumber}"},
+        {"getclaimBookEvent":"/claim/common/claimBookEvent/{claimNumber}"}
       ]
     }
     ]

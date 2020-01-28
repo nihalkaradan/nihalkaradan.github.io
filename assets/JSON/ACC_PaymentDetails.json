@@ -1,0 +1,96 @@
+{"DisabilityClaimAdjInformationVO": {
+   "claimNumber": "1000023978-1",
+   "commonSummaryVO":    {
+      "claimReferenceNumber": "1000023978",
+      "groupName": "SMD E2E Cycle 2-35",
+      "groupNumber": "6511868",
+      "productCode": "ACC",
+      "productCodeDesc": "Accident Insurance"
+   },
+   "paymentScheduleVOs": [   {
+      "paymentDate": "01/27/2020",
+      "paymentStatus": "PendingDisbursement",
+      "totalApprovedBenefit": 300,
+      "offsets": 0,
+      "incentives": 0,
+      "taxes": 0,
+      "recovery": 0,
+      "payoutAmount": 300,
+      "paymentCycleStartDate": "01/27/2020",
+      "paymentCycleEndDate": "01/27/2020",
+      "benefitId": 1522694895290,
+      "cycleType": "REGULAR",
+      "beneSerialNumber": "1",
+      "bulkInd": "No",
+      "releaseInd": "B",
+      "deductions": 0,
+      "calculationBreakupVO":       {
+         "paymentDate": "01/27/2020",
+         "paymentStatus": "PendingDisbursement",
+         "netpaymentAmount": 300,
+         "grossBenefits": 300,
+         "benefitBreakupVO":          {
+            "netAmount": 300,
+            "benefitVOs":             [
+                              {
+                  "description": "Air Ambulance",
+                  "amount": 250
+               },
+                              {
+                  "description": "Second Degree - Less than 10%",
+                  "amount": 50
+               }
+            ]
+         },
+         "offsetBreakupVO": {},
+         "incentiveBreakupVO": {},
+         "taxesBreakupVO":          {
+            "netAmount": 0,
+            "taxVOs": []
+         },
+         "recoveryBreakupVO": {}
+      },
+      "payableDetailVOs": [      {
+         "payeeName": "Raja8 Reddy8 ",
+         "paymentMethod": "EFT",
+         "disbursementAmt": 300,
+         "paymentDate": "01/27/2020",
+         "paymentStatus": "Processed",
+         "payeeTypeCT": "CLAIMANT"
+      }]
+   }],
+   "correspondingDisbursementVOs": [   {
+      "paymentDueDate": "01/27/2020",
+      "payeeName": "Raja8 Reddy8 ",
+      "netDisbursementAmt": 300,
+      "paymentStatus": "PendingIssue",
+      "statusDate": "01/27/2020",
+      "paymentMethod": "EFT",
+      "updatedBy": "SMD_PORTAL",
+      "payoutStagId": 1522695156549,
+      "disbursementDetailVO":       {
+         "netDisbursementAmt": 300,
+         "paymentMethod": "EFT",
+         "paymentDueDate": "01/27/2020",
+         "paymentStatus": "PendingIssue",
+         "payeeName": "Raja8 Reddy8 ",
+         "disbursementDetailVOs": [         {
+            "cycleStartDate": "01/27/2020",
+            "cycleEndDate": "01/27/2020",
+            "paymentDueDate": "01/27/2020",
+            "totalApprovedBenefit": 300,
+            "netPayoutAmount": 300,
+            "cycleType": "REGULAR",
+            "status": "PendingDisbursement",
+            "claimNumber": "1000023978-1"
+         }]
+      },
+      "externalPaymentInd": "N",
+      "stopPaymentInd": "N",
+      "releasePaymentInd": "N",
+      "updatePaymentInd": "N",
+      "bulkInd": "No",
+      "eftavailableDate": "01/30/2020"
+   }],
+   "adhocPaymentVOs": []
+}}

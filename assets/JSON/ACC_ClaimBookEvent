@@ -1,0 +1,774 @@
+{"ClaimBookEventsVO": {"eventsVO": [
+      {
+      "eventType": "Claim Status",
+      "eventName": "Claim Status Change",
+      "eventDescription": "Claim Status Change",
+      "eventStartDate": "01/27/2020 19:13:41",
+      "eventStatus": "Paid",
+      "eventAssignedUser": "SMD_PORTAL",
+      "transactionDetailVO":       {
+         "transactionDescription": "Claim Status Change",
+         "transactionProcessDate": "01/27/2020",
+         "transactionUser": "SMD_PORTAL",
+         "transactionStatus": "Completed",
+         "transHistList": [         {
+            "applicationScreen": "Claim Status Change",
+            "fieldName": "ClaimExternalStatusCT",
+            "previousValue": "In Process",
+            "newValue": "Paid"
+         }]
+      },
+      "popUpInd": "true",
+      "eventAssignedUserRole": "admin",
+      "eventCreatedByUser": "SMD_PORTAL",
+      "eventCreatedByUserRole": "admin",
+      "eventScheduledDate": "-",
+      "eventCompletedDate": "01/27/2020 19:13:41",
+      "eventRemark": "Remark:Paid"
+   },
+      {
+      "eventType": "Transaction",
+      "eventName": "Claim Update",
+      "eventDescription": "Claim Update",
+      "eventStartDate": "01/27/2020 19:13:41",
+      "eventStatus": "Completed",
+      "eventAssignedUser": "SMD_PORTAL",
+      "transactionDetailVO":       {
+         "transactionDescription": "Claim Update",
+         "transactionProcessDate": "01/27/2020",
+         "transactionUser": "SMD_PORTAL",
+         "transactionStatus": "Completed",
+         "transHistList": [         {
+            "applicationScreen": "Claim Update",
+            "fieldName": "ClaimExternalStatusCT",
+            "previousValue": "Received",
+            "newValue": "Paid"
+         }]
+      },
+      "popUpInd": "true",
+      "eventAssignedUserRole": "admin",
+      "eventCreatedByUser": "SMD_PORTAL",
+      "eventCreatedByUserRole": "admin",
+      "eventScheduledDate": "-",
+      "eventCompletedDate": "01/27/2020 19:13:41",
+      "eventRemark": "NA"
+   },
+      {
+      "eventType": "Transaction",
+      "eventName": "Lump Sum",
+      "eventDescription": "Lump Sum",
+      "eventStartDate": "01/27/2020 19:13:41",
+      "eventStatus": "Processed",
+      "eventAssignedUser": "SYSTEM",
+      "transactionDetailVO":       {
+         "transactionDescription": "Lump Sum",
+         "transactionEffectiveDate": "01/27/2020",
+         "transactionProcessDate": "2020/01/27 19:13:41",
+         "transactionGrossAmount": "300.00",
+         "transactionAdjustment": "0.00",
+         "transactionNetAmount": "300.00",
+         "transactionUser": "SYSTEM",
+         "transactionStatus": "Processed"
+      },
+      "popUpInd": "true",
+      "eventAssignedUserRole": "SYSTEM",
+      "eventCreatedByUser": "SYSTEM",
+      "eventCreatedByUserRole": "SYSTEM",
+      "eventScheduledDate": "-",
+      "eventCompletedDate": "01/27/2020 19:13:41",
+      "eventRemark": "Remark:NA"
+   },
+      {
+      "eventType": "Task",
+      "eventName": "Adjudicate Claim",
+      "eventDescription": "Adjudication & Finalization",
+      "eventStartDate": "01/27/2020 08:41:37",
+      "eventStatus": "Completed",
+      "eventAssignedUser": "SYSTEM",
+      "taskDetailVO":       {
+         "taskDesc": "Adjudicate Claim",
+         "taskProcess": "Adjudication & Finalization",
+         "taskStartDate": "01/27/2020",
+         "taskAssignedTo": "Austin, Aaron",
+         "taskStatus": "Completed",
+         "caseNumber": "CASE20200127-89320",
+         "caseDesc": "CL0000056-Claim should be Adjudicated Manually."
+      },
+      "popUpInd": "true",
+      "eventAssignedUserRole": "SYSTEM",
+      "eventCreatedByUser": "SYSTEM",
+      "eventCreatedByUserRole": "SYSTEM",
+      "eventScheduledDate": "-",
+      "eventCompletedDate": "01/27/2020 08:41:37",
+      "eventRemark": "Remark:\n  CL0000056-Claim should be Adjudicated Manually.\n "
+   },
+      {
+      "eventType": "Transaction",
+      "eventName": "Claim Update",
+      "eventDescription": "Claim Update",
+      "eventStartDate": "01/27/2020 08:41:37",
+      "eventStatus": "Completed",
+      "eventAssignedUser": "Austin, Aaron",
+      "transactionDetailVO":       {
+         "transactionDescription": "Claim Update",
+         "transactionProcessDate": "01/27/2020",
+         "transactionUser": "Aaron.Austin",
+         "transactionStatus": "Completed",
+         "transHistList": [         {
+            "applicationScreen": "Claim Update",
+            "fieldName": "CustomCol2",
+            "newValue": "103555"
+         }]
+      },
+      "popUpInd": "true",
+      "eventAssignedUserRole": "admin",
+      "eventCreatedByUser": "Austin, Aaron",
+      "eventCreatedByUserRole": "admin",
+      "eventScheduledDate": "-",
+      "eventCompletedDate": "01/27/2020 08:41:37",
+      "eventRemark": "NA"
+   },
+      {
+      "eventType": "Transaction",
+      "eventName": "ICD",
+      "eventDescription": "A002",
+      "eventStartDate": "01/27/2020 08:41:18",
+      "eventStatus": "Completed",
+      "transactionDetailVO":       {
+         "transactionDescription": "ICD",
+         "transactionProcessDate": "01/27/2020",
+         "transactionUser": "Aaron.Austin",
+         "transactionStatus": "Completed",
+         "transHistList":          [
+                        {
+               "applicationScreen": "ICD",
+               "fieldName": "Effective Date",
+               "newValue": "01/23/2020"
+            },
+                        {
+               "applicationScreen": "ICD",
+               "fieldName": "End Date"
+            },
+                        {
+               "applicationScreen": "ICD",
+               "fieldName": "ICD Code",
+               "newValue": "A002"
+            },
+                        {
+               "applicationScreen": "ICD",
+               "fieldName": "ICD Description"
+            },
+                        {
+               "applicationScreen": "ICD",
+               "fieldName": "User"
+            }
+         ]
+      },
+      "popUpInd": "true",
+      "eventAssignedUserRole": "admin",
+      "eventCreatedByUserRole": "admin",
+      "eventScheduledDate": "-",
+      "eventCompletedDate": "01/27/2020 08:41:18",
+      "eventRemark": "NA"
+   },
+      {
+      "eventType": "Transaction",
+      "eventName": "Claim Update",
+      "eventDescription": "Claim Update",
+      "eventStartDate": "01/27/2020 08:41:18",
+      "eventStatus": "Completed",
+      "eventAssignedUser": "Austin, Aaron",
+      "transactionDetailVO":       {
+         "transactionDescription": "Claim Update",
+         "transactionProcessDate": "01/27/2020",
+         "transactionUser": "Aaron.Austin",
+         "transactionStatus": "Completed",
+         "transHistList": [         {
+            "applicationScreen": "Claim Update",
+            "fieldName": "ClaimFormDetailsDiscrepencyInd",
+            "previousValue": "N"
+         }]
+      },
+      "popUpInd": "true",
+      "eventAssignedUserRole": "admin",
+      "eventCreatedByUser": "Austin, Aaron",
+      "eventCreatedByUserRole": "admin",
+      "eventScheduledDate": "-",
+      "eventCompletedDate": "01/27/2020 08:41:18",
+      "eventRemark": "NA"
+   },
+      {
+      "eventType": "Task",
+      "eventName": "Adjudicate Claim",
+      "eventDescription": "Adjudication & Finalization",
+      "eventStartDate": "01/27/2020 08:40:40",
+      "eventStatus": "Started",
+      "eventAssignedUser": "SYSTEM",
+      "taskDetailVO":       {
+         "taskDesc": "Adjudicate Claim",
+         "taskProcess": "Adjudication & Finalization",
+         "taskStartDate": "01/27/2020",
+         "taskAssignedTo": "Austin, Aaron",
+         "taskStatus": "Completed",
+         "caseNumber": "CASE20200127-89320",
+         "caseDesc": "CL0000056-Claim should be Adjudicated Manually."
+      },
+      "popUpInd": "true",
+      "eventAssignedUserRole": "SYSTEM",
+      "eventCreatedByUser": "SYSTEM",
+      "eventCreatedByUserRole": "SYSTEM",
+      "eventScheduledDate": "-",
+      "eventCompletedDate": "01/27/2020 08:41:37",
+      "eventRemark": "Remark:\n  CL0000056-Claim should be Adjudicated Manually.\n "
+   },
+      {
+      "eventType": "Task",
+      "eventName": "Adjudicate Claim",
+      "eventDescription": "Adjudication & Finalization",
+      "eventStartDate": "01/27/2020 08:40:32",
+      "eventStatus": "Allocated",
+      "eventAssignedUser": "Austin, Aaron",
+      "taskDetailVO":       {
+         "taskDesc": "Adjudicate Claim",
+         "taskProcess": "Adjudication & Finalization",
+         "taskStartDate": "01/27/2020",
+         "taskAssignedTo": "Austin, Aaron",
+         "taskStatus": "Completed",
+         "caseNumber": "CASE20200127-89320",
+         "caseDesc": "CL0000056-Claim should be Adjudicated Manually."
+      },
+      "popUpInd": "true",
+      "eventAssignedUserRole": "admin",
+      "eventCreatedByUser": "Austin, Aaron",
+      "eventCreatedByUserRole": "admin",
+      "eventScheduledDate": "-",
+      "eventCompletedDate": "01/27/2020 08:41:37",
+      "eventRemark": "Remark:\n  CL0000056-Claim should be Adjudicated Manually.\n "
+   },
+      {
+      "eventType": "Task",
+      "eventName": "Adjudicate Claim",
+      "eventDescription": "Adjudication & Finalization",
+      "eventStartDate": "01/27/2020 08:40:08",
+      "eventStatus": "Offered",
+      "eventAssignedUser": "SYSTEM",
+      "taskDetailVO":       {
+         "taskDesc": "Adjudicate Claim",
+         "taskProcess": "Adjudication & Finalization",
+         "taskStartDate": "01/27/2020",
+         "taskAssignedTo": "Austin, Aaron",
+         "taskStatus": "Completed",
+         "caseNumber": "CASE20200127-89320",
+         "caseDesc": "CL0000056-Claim should be Adjudicated Manually."
+      },
+      "popUpInd": "true",
+      "eventAssignedUserRole": "SYSTEM",
+      "eventCreatedByUser": "SYSTEM",
+      "eventCreatedByUserRole": "SYSTEM",
+      "eventScheduledDate": "-",
+      "eventCompletedDate": "01/27/2020 08:41:37",
+      "eventRemark": "Remark:\n  CL0000056-Claim should be Adjudicated Manually.\n "
+   },
+      {
+      "eventType": "Task",
+      "eventName": "Adjudicate Claim",
+      "eventDescription": "Adjudication & Finalization",
+      "eventStartDate": "01/27/2020 08:40:01",
+      "eventStatus": "Created",
+      "eventAssignedUser": "SYSTEM",
+      "taskDetailVO":       {
+         "taskDesc": "Adjudicate Claim",
+         "taskProcess": "Adjudication & Finalization",
+         "taskStartDate": "01/27/2020",
+         "taskAssignedTo": "Austin, Aaron",
+         "taskStatus": "Completed",
+         "caseNumber": "CASE20200127-89320",
+         "caseDesc": "CL0000056-Claim should be Adjudicated Manually."
+      },
+      "popUpInd": "true",
+      "eventAssignedUserRole": "SYSTEM",
+      "eventCreatedByUser": "SYSTEM",
+      "eventCreatedByUserRole": "SYSTEM",
+      "eventScheduledDate": "-",
+      "eventCompletedDate": "01/27/2020 08:41:37",
+      "eventRemark": "Remark:\n  CL0000056-Claim should be Adjudicated Manually.\n "
+   },
+      {
+      "eventType": "Transaction",
+      "eventName": "Claim Update",
+      "eventDescription": "Claim Update",
+      "eventStartDate": "01/27/2020 08:39:22",
+      "eventStatus": "Completed",
+      "eventAssignedUser": "SYSTEM",
+      "transactionDetailVO":       {
+         "transactionDescription": "Claim Update",
+         "transactionProcessDate": "01/27/2020",
+         "transactionUser": "SYSTEM",
+         "transactionStatus": "Completed",
+         "transHistList": [         {
+            "applicationScreen": "Claim Update",
+            "fieldName": "STPInd",
+            "previousValue": "Y",
+            "newValue": "N"
+         }]
+      },
+      "popUpInd": "true",
+      "eventAssignedUserRole": "SYSTEM",
+      "eventCreatedByUser": "SYSTEM",
+      "eventCreatedByUserRole": "SYSTEM",
+      "eventScheduledDate": "-",
+      "eventCompletedDate": "01/27/2020 08:39:22",
+      "eventRemark": "NA"
+   },
+      {
+      "eventType": "Transaction",
+      "eventName": "System Decision (Accident Insurance)",
+      "eventDescription": "System Decision",
+      "eventStartDate": "01/27/2020 08:39:20",
+      "eventStatus": "Approved",
+      "eventAssignedUser": "SYSTEM",
+      "transactionDetailVO":       {
+         "transactionDescription": "System Decision",
+         "transactionProcessDate": "01/27/2020",
+         "transactionUser": "System",
+         "transactionStatus": "Completed",
+         "transHistList": [         {
+            "applicationScreen": "System Decision",
+            "fieldName": "System Decision",
+            "newValue": "Approved"
+         }]
+      },
+      "popUpInd": "true",
+      "eventAssignedUserRole": "SYSTEM",
+      "eventCreatedByUser": "SYSTEM",
+      "eventCreatedByUserRole": "SYSTEM",
+      "eventScheduledDate": "-",
+      "eventCompletedDate": "01/27/2020 08:39:20",
+      "eventRemark": "NA"
+   },
+      {
+      "eventType": "Transaction",
+      "eventName": "System Decision (Accident Insurance)",
+      "eventDescription": "System Decision",
+      "eventStartDate": "01/27/2020 08:39:19",
+      "eventStatus": "Approved",
+      "eventAssignedUser": "SYSTEM",
+      "transactionDetailVO":       {
+         "transactionDescription": "System Decision",
+         "transactionProcessDate": "01/27/2020",
+         "transactionUser": "System",
+         "transactionStatus": "Completed",
+         "transHistList": [         {
+            "applicationScreen": "System Decision",
+            "fieldName": "System Decision",
+            "newValue": "Approved"
+         }]
+      },
+      "popUpInd": "true",
+      "eventAssignedUserRole": "SYSTEM",
+      "eventCreatedByUser": "SYSTEM",
+      "eventCreatedByUserRole": "SYSTEM",
+      "eventScheduledDate": "-",
+      "eventCompletedDate": "01/27/2020 08:39:19",
+      "eventRemark": "NA"
+   },
+      {
+      "eventType": "Claim Status",
+      "eventName": "Claim Status Change",
+      "eventDescription": "Claim Status Change",
+      "eventStartDate": "01/27/2020 08:39:18",
+      "eventStatus": "In Process",
+      "eventAssignedUser": "SYSTEM",
+      "transactionDetailVO":       {
+         "transactionDescription": "Claim Status Change",
+         "transactionProcessDate": "01/27/2020",
+         "transactionUser": "SYSTEM",
+         "transactionStatus": "Completed",
+         "transHistList": [         {
+            "applicationScreen": "Claim Status Change",
+            "fieldName": "ClaimExternalStatusCT",
+            "previousValue": "Received",
+            "newValue": "In Process"
+         }]
+      },
+      "popUpInd": "true",
+      "eventAssignedUserRole": "SYSTEM",
+      "eventCreatedByUser": "SYSTEM",
+      "eventCreatedByUserRole": "SYSTEM",
+      "eventScheduledDate": "-",
+      "eventCompletedDate": "01/27/2020 08:39:18",
+      "eventRemark": "Remark:In Process"
+   },
+      {
+      "eventType": "Transaction",
+      "eventName": "Claim Update",
+      "eventDescription": "Claim Update",
+      "eventStartDate": "01/27/2020 08:39:18",
+      "eventStatus": "Completed",
+      "eventAssignedUser": "SYSTEM",
+      "transactionDetailVO":       {
+         "transactionDescription": "Claim Update",
+         "transactionProcessDate": "01/27/2020",
+         "transactionUser": "SYSTEM",
+         "transactionStatus": "Completed",
+         "transHistList": [         {
+            "applicationScreen": "Claim Update",
+            "fieldName": "ClaimFormDetailsDiscrepencyInd",
+            "newValue": "N"
+         }]
+      },
+      "popUpInd": "true",
+      "eventAssignedUserRole": "SYSTEM",
+      "eventCreatedByUser": "SYSTEM",
+      "eventCreatedByUserRole": "SYSTEM",
+      "eventScheduledDate": "-",
+      "eventCompletedDate": "01/27/2020 08:39:18",
+      "eventRemark": "NA"
+   },
+      {
+      "eventType": "Task",
+      "eventName": "Add or Update Benefits",
+      "eventDescription": "Claim Additional Info Check",
+      "eventStartDate": "01/27/2020 08:38:44",
+      "eventStatus": "Completed",
+      "eventAssignedUser": "SYSTEM",
+      "taskDetailVO":       {
+         "taskDesc": "Add or Update Benefits",
+         "taskProcess": "Claim Additional Info Check",
+         "taskStartDate": "01/27/2020",
+         "taskAssignedTo": "Austin, Aaron",
+         "taskStatus": "Completed",
+         "caseNumber": "CASE20200127-89320",
+         "caseDesc": "E12012-Please Add Proposed Benefits"
+      },
+      "popUpInd": "true",
+      "eventAssignedUserRole": "SYSTEM",
+      "eventCreatedByUser": "SYSTEM",
+      "eventCreatedByUserRole": "SYSTEM",
+      "eventScheduledDate": "-",
+      "eventCompletedDate": "01/27/2020 08:38:44",
+      "eventRemark": "Remark:\n  E12012-Please Add Proposed Benefits\n "
+   },
+      {
+      "eventType": "Transaction",
+      "eventName": "Claim Update",
+      "eventDescription": "Claim Update",
+      "eventStartDate": "01/27/2020 08:38:43",
+      "eventStatus": "Completed",
+      "eventAssignedUser": "Austin, Aaron",
+      "transactionDetailVO":       {
+         "transactionDescription": "Claim Update",
+         "transactionProcessDate": "01/27/2020",
+         "transactionUser": "Aaron.Austin",
+         "transactionStatus": "Completed",
+         "transHistList": [         {
+            "applicationScreen": "Claim Update",
+            "fieldName": "ProcessingStageCT",
+            "previousValue": "PropBenCreated",
+            "newValue": "PropBenFinalized"
+         }]
+      },
+      "popUpInd": "true",
+      "eventAssignedUserRole": "admin",
+      "eventCreatedByUser": "Austin, Aaron",
+      "eventCreatedByUserRole": "admin",
+      "eventScheduledDate": "-",
+      "eventCompletedDate": "01/27/2020 08:38:43",
+      "eventRemark": "NA"
+   },
+      {
+      "eventType": "Transaction",
+      "eventName": "Claim Update",
+      "eventDescription": "Claim Update",
+      "eventStartDate": "01/27/2020 08:38:38",
+      "eventStatus": "Completed",
+      "eventAssignedUser": "Austin, Aaron",
+      "transactionDetailVO":       {
+         "transactionDescription": "Claim Update",
+         "transactionProcessDate": "01/27/2020",
+         "transactionUser": "Aaron.Austin",
+         "transactionStatus": "Completed",
+         "transHistList":          [
+                        {
+               "applicationScreen": "Claim Update",
+               "fieldName": "ClaimFormDetailsDiscrepencyInd",
+               "previousValue": "N"
+            },
+                        {
+               "applicationScreen": "Claim Update",
+               "fieldName": "ProcessingStageCT",
+               "previousValue": "PropBenTaskCreated",
+               "newValue": "PropBenCreated"
+            }
+         ]
+      },
+      "popUpInd": "true",
+      "eventAssignedUserRole": "admin",
+      "eventCreatedByUser": "Austin, Aaron",
+      "eventCreatedByUserRole": "admin",
+      "eventScheduledDate": "-",
+      "eventCompletedDate": "01/27/2020 08:38:38",
+      "eventRemark": "NA"
+   },
+      {
+      "eventType": "Task",
+      "eventName": "Add or Update Benefits",
+      "eventDescription": "Claim Additional Info Check",
+      "eventStartDate": "01/27/2020 08:37:50",
+      "eventStatus": "Started",
+      "eventAssignedUser": "SYSTEM",
+      "taskDetailVO":       {
+         "taskDesc": "Add or Update Benefits",
+         "taskProcess": "Claim Additional Info Check",
+         "taskStartDate": "01/27/2020",
+         "taskAssignedTo": "Austin, Aaron",
+         "taskStatus": "Completed",
+         "caseNumber": "CASE20200127-89320",
+         "caseDesc": "E12012-Please Add Proposed Benefits"
+      },
+      "popUpInd": "true",
+      "eventAssignedUserRole": "SYSTEM",
+      "eventCreatedByUser": "SYSTEM",
+      "eventCreatedByUserRole": "SYSTEM",
+      "eventScheduledDate": "-",
+      "eventCompletedDate": "01/27/2020 08:38:44",
+      "eventRemark": "Remark:\n  E12012-Please Add Proposed Benefits\n "
+   },
+      {
+      "eventType": "Task",
+      "eventName": "Add or Update Benefits",
+      "eventDescription": "Claim Additional Info Check",
+      "eventStartDate": "01/27/2020 08:37:42",
+      "eventStatus": "Allocated",
+      "eventAssignedUser": "Austin, Aaron",
+      "taskDetailVO":       {
+         "taskDesc": "Add or Update Benefits",
+         "taskProcess": "Claim Additional Info Check",
+         "taskStartDate": "01/27/2020",
+         "taskAssignedTo": "Austin, Aaron",
+         "taskStatus": "Completed",
+         "caseNumber": "CASE20200127-89320",
+         "caseDesc": "E12012-Please Add Proposed Benefits"
+      },
+      "popUpInd": "true",
+      "eventAssignedUserRole": "admin",
+      "eventCreatedByUser": "Austin, Aaron",
+      "eventCreatedByUserRole": "admin",
+      "eventScheduledDate": "-",
+      "eventCompletedDate": "01/27/2020 08:38:44",
+      "eventRemark": "Remark:\n  E12012-Please Add Proposed Benefits\n "
+   },
+      {
+      "eventType": "Task",
+      "eventName": "Add or Update Benefits",
+      "eventDescription": "Claim Additional Info Check",
+      "eventStartDate": "01/27/2020 08:35:02",
+      "eventStatus": "Offered",
+      "eventAssignedUser": "SYSTEM",
+      "taskDetailVO":       {
+         "taskDesc": "Add or Update Benefits",
+         "taskProcess": "Claim Additional Info Check",
+         "taskStartDate": "01/27/2020",
+         "taskAssignedTo": "Austin, Aaron",
+         "taskStatus": "Completed",
+         "caseNumber": "CASE20200127-89320",
+         "caseDesc": "E12012-Please Add Proposed Benefits"
+      },
+      "popUpInd": "true",
+      "eventAssignedUserRole": "SYSTEM",
+      "eventCreatedByUser": "SYSTEM",
+      "eventCreatedByUserRole": "SYSTEM",
+      "eventScheduledDate": "-",
+      "eventCompletedDate": "01/27/2020 08:38:44",
+      "eventRemark": "Remark:\n  E12012-Please Add Proposed Benefits\n "
+   },
+      {
+      "eventType": "Task",
+      "eventName": "Add or Update Benefits",
+      "eventDescription": "Claim Additional Info Check",
+      "eventStartDate": "01/27/2020 08:34:06",
+      "eventStatus": "Created",
+      "eventAssignedUser": "SYSTEM",
+      "taskDetailVO":       {
+         "taskDesc": "Add or Update Benefits",
+         "taskProcess": "Claim Additional Info Check",
+         "taskStartDate": "01/27/2020",
+         "taskAssignedTo": "Austin, Aaron",
+         "taskStatus": "Completed",
+         "caseNumber": "CASE20200127-89320",
+         "caseDesc": "E12012-Please Add Proposed Benefits"
+      },
+      "popUpInd": "true",
+      "eventAssignedUserRole": "SYSTEM",
+      "eventCreatedByUser": "SYSTEM",
+      "eventCreatedByUserRole": "SYSTEM",
+      "eventScheduledDate": "-",
+      "eventCompletedDate": "01/27/2020 08:38:44",
+      "eventRemark": "Remark:\n  E12012-Please Add Proposed Benefits\n "
+   },
+      {
+      "eventType": "Transaction",
+      "eventName": "Claim Submitted",
+      "eventDescription": "Claim submitted",
+      "eventStartDate": "01/27/2020 08:33:06",
+      "eventStatus": "Completed",
+      "eventAssignedUser": "Austin, Aaron",
+      "transactionDetailVO":       {
+         "transactionDescription": "Claim Submitted",
+         "transactionProcessDate": "01/27/2020",
+         "transactionUser": "Aaron.Austin",
+         "transactionStatus": "Completed",
+         "transHistList": [         {
+            "applicationScreen": "Claim Submitted",
+            "fieldName": "Claim Status",
+            "newValue": "Submitted"
+         }]
+      },
+      "popUpInd": "true",
+      "eventAssignedUserRole": "admin",
+      "eventCreatedByUser": "Austin, Aaron",
+      "eventCreatedByUserRole": "admin",
+      "eventScheduledDate": "-",
+      "eventCompletedDate": "01/27/2020 08:33:06",
+      "eventRemark": "Claim Submitted"
+   },
+      {
+      "eventType": "Claim Status",
+      "eventName": "Claim Status Change",
+      "eventDescription": "Claim Status Change",
+      "eventStartDate": "01/27/2020 08:33:06",
+      "eventStatus": "Received",
+      "eventAssignedUser": "Austin, Aaron",
+      "transactionDetailVO":       {
+         "transactionDescription": "Claim Status Change",
+         "transactionProcessDate": "01/27/2020",
+         "transactionUser": "Aaron.Austin",
+         "transactionStatus": "Completed",
+         "transHistList": [         {
+            "applicationScreen": "Claim Status Change",
+            "fieldName": "ClaimExternalStatusCT",
+            "previousValue": "NA",
+            "newValue": "Received"
+         }]
+      },
+      "popUpInd": "true",
+      "eventAssignedUserRole": "admin",
+      "eventCreatedByUser": "Austin, Aaron",
+      "eventCreatedByUserRole": "admin",
+      "eventScheduledDate": "-",
+      "eventCompletedDate": "01/27/2020 08:33:06",
+      "eventRemark": "Remark:Received"
+   },
+      {
+      "eventType": "Transaction",
+      "eventName": "Add Payee",
+      "eventDescription": "Add Payee",
+      "eventStartDate": "01/27/2020 08:33:06",
+      "eventStatus": "Completed",
+      "eventAssignedUser": "Austin, Aaron",
+      "transactionDetailVO":       {
+         "transactionDescription": "Add Payee",
+         "transactionProcessDate": "01/27/2020",
+         "transactionUser": "Aaron.Austin",
+         "transactionStatus": "Completed",
+         "transHistList":          [
+                        {
+               "applicationScreen": "Add Payee",
+               "fieldName": "Payee Name",
+               "newValue": "Raja8 Reddy8 "
+            },
+                        {
+               "applicationScreen": "Add Payee",
+               "fieldName": "Payee Type",
+               "newValue": "CLAIMANT"
+            },
+                        {
+               "applicationScreen": "Add Payee",
+               "fieldName": "Tax ID (SSN)",
+               "newValue": "XXX-XX-1574"
+            },
+                        {
+               "applicationScreen": "Add Payee",
+               "fieldName": "Priority Sequence"
+            }
+         ]
+      },
+      "popUpInd": "true",
+      "eventAssignedUserRole": "admin",
+      "eventCreatedByUser": "Austin, Aaron",
+      "eventCreatedByUserRole": "admin",
+      "eventScheduledDate": "-",
+      "eventCompletedDate": "01/27/2020 08:33:06",
+      "eventRemark": "Raja8 Reddy8 - EFT"
+   },
+      {
+      "eventType": "Transaction",
+      "eventName": "Claim Update",
+      "eventDescription": "Claim Update",
+      "eventStartDate": "01/27/2020 08:33:06",
+      "eventStatus": "Completed",
+      "eventAssignedUser": "Austin, Aaron",
+      "transactionDetailVO":       {
+         "transactionDescription": "Claim Update",
+         "transactionProcessDate": "01/27/2020",
+         "transactionUser": "Aaron.Austin",
+         "transactionStatus": "Completed",
+         "transHistList":          [
+                        {
+               "applicationScreen": "Claim Update",
+               "fieldName": "ClaimFormDetailsDiscrepencyInd",
+               "newValue": "N"
+            },
+                        {
+               "applicationScreen": "Claim Update",
+               "fieldName": "ProcessingStageCT",
+               "previousValue": "ClmAppSubmitted",
+               "newValue": "PropBenTaskCreated"
+            },
+                        {
+               "applicationScreen": "Claim Update",
+               "fieldName": "CallerTypeCT",
+               "previousValue": ""
+            },
+                        {
+               "applicationScreen": "Claim Update",
+               "fieldName": "ClaimExternalStatusCT",
+               "newValue": "Received"
+            },
+                        {
+               "applicationScreen": "Claim Update",
+               "fieldName": "NIGOResolvedInd",
+               "newValue": "IGO"
+            }
+         ]
+      },
+      "popUpInd": "true",
+      "eventAssignedUserRole": "admin",
+      "eventCreatedByUser": "Austin, Aaron",
+      "eventCreatedByUserRole": "admin",
+      "eventScheduledDate": "-",
+      "eventCompletedDate": "01/27/2020 08:33:06",
+      "eventRemark": "NA"
+   },
+      {
+      "eventType": "Correspondence",
+      "eventName": "Explanation of Benefits",
+      "eventStartDate": "01/27/2020 00:00:00",
+      "eventStatus": "Completed",
+      "eventAssignedUser": "SYSTEM",
+      "correspondenceDetailVO":       {
+         "correspondenceDescription": "Explanation of Benefits",
+         "correspondenceDate": "2020/01/27 00:00:00",
+         "correspondenceAddressee": "Raja8 Reddy8 ",
+         "correspondenceAddress": "212B, NewYork2, LIVINGSTON, Illinois, 62249",
+         "correspondenceStatus": "Completed"
+      },
+      "popUpInd": "true",
+      "eventAssignedUserRole": "SYSTEM",
+      "eventCreatedByUser": "SYSTEM",
+      "eventCreatedByUserRole": "SYSTEM",
+      "eventScheduledDate": "-",
+      "eventCompletedDate": "01/27/2020 00:00:00",
+      "eventRemark": "Remark:Explanation of Benefits"
+   }
+]}}

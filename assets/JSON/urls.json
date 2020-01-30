@@ -3,13 +3,13 @@
     {
       "getClaimData_ACC": [
         {
-          "name":"getclaimdetaildata","url": "/claim/get/claimInfo/acc/update/{claimEventRefNumber}"
+          "name":"getclaimdetaildata","url": "http://nihalkaradan.github.io/assets/JSON/ACC_ClaimDetailData.json"
         },
         {
-          "name":"getPaymentSchedule","url": "/claim/adj/disability/manual/payschedule/{claimNumber}"
+          "name":"getPaymentSchedule","url": "http://nihalkaradan.github.io/assets/JSON/ACC_PaymentDetails.json"
         },
         {
-          "name":"getclaimBookEvent","url": "/claim/common/claimBookEvent/{claimNumber}"
+          "name":"getclaimBookEvent","url": "http://nihalkaradan.github.io/assets/JSON/ACC_ClaimBookEvent.json"
         }
       ],
       "getClaimData_CI": [

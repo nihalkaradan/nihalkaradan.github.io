@@ -3,13 +3,13 @@
     {
       "getClaimData_ACC": [
         {
-          "name":"getclaimdetaildata","url": "http://nihalkaradan.github.io/assets/JSON/ACC_ClaimDetailData.json"
+          "name":"getclaimdetaildata","url": "https://reqres.in/api/users?page=2"
         },
         {
-          "name":"getPaymentSchedule","url": "http://nihalkaradan.github.io/assets/JSON/ACC_PaymentDetails.json"
+          "name":"getPaymentSchedule","url": "https://reqres.in/api/users/2"
         },
         {
-          "name":"getclaimBookEvent","url": "http://nihalkaradan.github.io/assets/JSON/ACC_ClaimBookEvent.json"
+          "name":"getclaimBookEvent","url": "https://reqres.in/api/users/2"
         }
       ],
       "getClaimData_CI": [

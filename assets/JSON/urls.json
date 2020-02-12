@@ -1,5 +1,5 @@
 {
-  "getClaimData": [
+  "getClaimData": 
     {
       "getClaimData_ACC": [
         {
@@ -34,6 +34,6 @@
           "getclaimBookEvent": "/claim/common/claimBookEvent/{claimNumber}"
         }
       ]
+    
     }
-  ]
 }

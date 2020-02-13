@@ -1,0 +1,20 @@
+[
+  {
+    "operation": "shift",
+    "spec": {
+      "#NA": ["paymentSummaryCard.paymentTurboCard[#2].chequeNumber", "paymentSummaryCard.paymentTurboCard[#2].paymentAccount.nickName", "paymentSummaryCard.paymentTurboCard[#2].paymentAccount.accountNumber"],
+      "# ": "paymentSummaryCard.paymentTurboCard[#2].paymentAmount.currency",
+      "DisabilityClaimAdjInformationVO": {
+        "correspondingDisbursementVOs": {
+          "*": {
+            "paymentDueDate": "paymentSummaryCard.paymentTurboCard[#2].paymentDate",
+            "paymentMethod": "paymentSummaryCard.paymentTurboCard[#2].paymentMethod",
+            "netDisbursementAmt": "paymentSummaryCard.paymentTurboCard[#2].paymentAmount.amount"
+          }
+        }
+      }
+    }
+  }
+
+
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "operation": "shift",
+    "spec": {
+      "AccClaimEventInformationVO": {
+        "payeeDetailVOs": {
+          "*": {
+            "clientId": "extension.clientId"
+          }
+        },
+        "claimantStatementVO": {
+          "patientInformationVO": {
+            "firstName": "claimantName.claimantFirstName",
+            "lastName": "claimantName.claimantLastName",
+            "relationShipToMember": "extension.relationShipToMember"
+          },
+          "accidentDetailInfoVO": {
+            "accidentDate": "extension.claimSummaryCard.dateOfAccident",
+            "accidentCity": "extension.claimSummaryCard.cityOfAccident",
+            "accidentState": "extension.claimSummaryCard.stateOfAccident"
+          }
+        },
+        "servicesVOs": {
+          "*": {
+            "serviceCT": "extension.claimSummaryCard.service"
+          }
+        }
+      }
+    }
+  }
+]

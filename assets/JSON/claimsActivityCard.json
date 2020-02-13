@@ -1,16 +1,16 @@
 [
-  {
-    "operation": "shift",
-    "spec": {
-      "ClaimBookEventsVO": {
-        "eventsVO": {
-          "*": {
-            "eventName": "claimActivityCard[#2].activity",
-            "eventDescription": "claimActivityCard[#2].description",
-            "eventStartDate": "claimActivityCard[#2].date"
-          }
-        }
-      }
-    }
-  }
+  {
+    "operation": "shift",
+    "spec": {
+      "ClaimBookEventsVO": {
+        "eventsVO": {
+          "*": {
+            "eventName": "claimActivityCard[#2].activity",
+            "eventDescription": "claimActivityCard[#2].description",
+            "eventStartDate": "claimActivityCard[#2].date"
+          }
+        }
+      }
+    }
+  }
 ]

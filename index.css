@@ -1,10 +1,12 @@
+.navbar-brand{
+  padding-left: 5%;
+}
 img {
   width: 419px;
   height: 419px;
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
   padding-bottom: 20px;
-  
 }
 .row {
   display: table;
@@ -13,8 +15,8 @@ img {
   padding-top: 40px;
   padding-bottom: 20px;
   align-items: center;
-  font-family: Poppins,sans-serif;
+  font-family: Poppins, sans-serif;
 }
-.career{
+.career {
   margin-top: 50px;
 }

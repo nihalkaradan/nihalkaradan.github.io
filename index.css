@@ -3,12 +3,18 @@ img {
   height: 419px;
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
+  padding-bottom: 20px;
+  
 }
 .row {
   display: table;
 }
 .jumbotron {
-  padding-top: 50px;
+  padding-top: 40px;
   padding-bottom: 20px;
   align-items: center;
+  font-family: Poppins,sans-serif;
+}
+.career{
+  margin-top: 50px;
 }
